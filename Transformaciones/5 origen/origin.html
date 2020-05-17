@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Origen</title>
+</head>
+<style>
+	body{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		color: white;
+		font-family: Arial;
+		
+	}
+	.container{
+		border: 1px solid red;
+	}
+	.container:hover .cuadrado{
+		transform-origin: 100% 50px;
+		/*transform: skew(x, y);*/
+		/*transform: skew(10deg, 10deg);*/
+		transform: rotateY(45deg);
+
+	}
+	.cuadrado{
+		width: 200px;
+		height: 200px;
+		background: #7dc900;
+		margin: 20px;
+		transition: .3s;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="cuadrado">
+			Hola mundo
+		
+		
+	</div>
+   </div>
+
+</body>
+</html>
